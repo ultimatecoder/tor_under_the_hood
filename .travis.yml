@@ -1,13 +1,16 @@
 language: node_js
 script:
-  - echo "No tests yet!"
+- echo "No tests yet!"
 before_deploy:
-  - make build
-  - make slides
+- make build
+- make slides
 deploy:
-  - provider: pages
-  - skip-cleanup: true
-  - github-token: $GITHUB_TOKEN
-  - keep-history: true
-  - on: master
-  - local-dir: output
+- provider: pages
+- skip-cleanup: true
+- github-token: "$GITHUB_TOKEN"
+- keep-history: true
+- true: master
+- local-dir: output
+env:
+  matrix:
+    secure: fkQ3nsNMOzygeUqVr/nCqMSGulw+7E75gZoEKOD2j+wkhTn3F29eZlvzwjzNZgismadEUgA4dgMKxEAgemEVO5Jq3YTaRuI8lSU1bYihnbzPQmwVnlOJfdsGhGCz+r3FEOt6qQZ7KnRE8FnHDe1T1c214n8DB95Z9e9XAW+b+pqeJ+m90OqJvPvIoqPNMat9ZV5LbAODqZY0y3o154bTK7MsAvlgjUkGRJ6/TMTtNEKL2PwUXHEpbCSKWcyxF8guXgEc6pfOJL1mCWlEv4zvzxnnhsjFO8Xc9XtmEq6EU628cqy1iCAAjpFufQfEcpTQ7gEfOcREAxwOeyYOiibWVVgh82ouYgZST/FiROp9RmCi0OdDofUntCp7k9od3Q04T+jyyJyl3kYkcvGYqnaFElz59RkMCCjKHYWfpjaMtY1LvKDykFiADv7V8QiFAp3w8cIOhGlCkojVfub9KyG26+3C9NtVLxNEnpFdHHOUsMIkiIM1DamdHVjeDku80Ix4pmFqLKCz6B5MilB6YjkYzuxH7k4jN36RdUbCggAJmFP1jax1yzQXpAJhkBKZixwCE7hoKxbBh9WMvs1SEXL/vX3JhbvQ2mtAx9mMtMq6rEzB4grfp3Gqd1t7hdjl7zP+rms43jV8aLUXik0nWtwlYkuYvCu7vWHaEeYY/fnyfWg=
