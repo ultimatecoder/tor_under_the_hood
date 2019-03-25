@@ -5,12 +5,12 @@ before_deploy:
 - make build
 - make slides
 deploy:
-- provider: pages
-- skip-cleanup: true
-- github-token: $GITHUB_TOKEN
-- keep-history: true
-- true: master
-- local-dir: output
+  provider: pages
+  skip-cleanup: true
+  github-token: $GH_PAGES
+  keep-history: true
+  on:
+    branch: master
 env:
   global:
-    secure: aDkqhOZ/KsDHBxek7SApFfC1emHyA1p1atuvHbWKKD8Ctk5qaR87+lWs76OsQ0kN8CgmgE2QIxUj8EB+X0tZYlXxaWeUGyVPTnCMdpmE72R1ZLxaa7iQtAM5C3v4+MmAlCxPDWkVsz8zJo/BFA0MID6+2HsdmldZnH4Ocng+Nh9zC5LqEzxEZu8/2TmAXh1UYNjXv5hc1ovkQ2bEWq2PUhx3v1CczsLy9i6rD2L2MpCkW5G1IJMtbdVSLUxPjHYQ1TQCKWi8lq+Mwmg40jm9gDtdifCAMmXvRcX+mmJvztnKtRSfrzeVszDbuIpzAB9QgK91jClyH4mgrl6bro+vARYkEjIi6h143NKBXrZAOR3W4aggu+tuR8+DF+E2pR+FmQI7AQtFcjX2LasHZcXIXnHOi+5Q6WNIkpvqcT/YzrX6hNFHB7FnimRRwmYLGt1z+y/dsiGkfyQgVOdwElsPycbG+ZIj+ONsBdoaEuDCz9ZAsrLntlNjJ2GlKOA99ML+oyy6KGsBUCsvMJwzgCy0JexSaYYl9tJirQsj/V6LUjUlj7KPj+C7RwIOIOI3dVpWiZu+9nvxA9/3F0IEQdmFTny1UAiPAjWno/86dtGc7St70k1xnRRYLirsbLd+f1Fz5+cPUoXHWHjio5OmCC6VtL9fwtvbRnNQVEtq0yGn9Us=
+    secure: iDOnlgTxaEVhVJRwA3hKDoTgW3rfXSLvxbNP4NdnZoNR29D5Bb9LJG5YykAkuV3Gln0ybrpTHOFUxYMSHdmthwIgTd9DMOCrwB2A0K3s/HzNrmsOpOrWiL7IE83dst3SC+Z8wAUzgi6R1J4qalfI8t47a+fK+ZkxRDyJnWZkSzfF19Z2Hv2X8+5bLrVtv4k65uc1w0f1v4uT2D6Ge6p4DQyaSVyoI66EUFmRGwjTHrEBDsR9hBuRZMmDt9jCrER5IZOZH/n0/6NCo9MVIwDKBVuG1HHKICBxX7HwtH/vtrRY74Ia0Z2Z5XBXbYiVhwBDoLXR19/6edPPsdqBwEzHw2MuZO/bx0dFI3bNyreCpvWHCAFAEOZGzzNbDMv3/NYgKfLY3bI8q+I9TlRcuE9GjrbQdbte7HhP2fFs9wcsEQ9o5YDsBy4BDw04zfOkqkGbRH8fBW4TYtwCUGzIj9JawbUVez4zgtEeBzsSE58zDZQE8JVnsjgTZY8UqmSh5MY4qGi+N4vQnABW0vKjxtDTd/M/vL5oG6wWCALUE/0jX0oXkS8JcrMxs8E+i9rEh8nUfqjVIuzd0kN/O1Xg3uQ22xkX/78Hb0+FBBmrrTydcV3QSxVqLKxtS48LAxAn1t6KJv0vhr/SPc0KCGcbjN4WSd+IG5lO1ScZAMxFOvxB03E=
