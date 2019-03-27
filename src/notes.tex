@@ -185,7 +185,68 @@
       symmetric keys are generated and exchanged with new relays to increase
       the security.
 
-    \section{Privacy comparison of Tor browser with other browsers}
-      TODO: Add privacy comparison of Tor with other browsers.
+    \section{Comparison of browsing through Tor and HTTPS}
+
+      \begin{figure}[h!]
+        \includegraphics[width=\linewidth]{no_tor_no_https.png}
+        \caption{Information one expose when browsing without Tor and HTTPS}
+        \label{fig:no_https_no_tor}
+      \end{figure}
+
+      When browsing without Tor or HTTPS, information like which website are
+      you browsing and formdata and Submitted Username and Password are exposed
+      when the request is routing to its destination.
+
+      \begin{figure}[h!]
+        \includegraphics[width=\linewidth]{no_tor_yes_https.png}
+        \caption{Information one expose when browsing without Tor but with HTTPS}
+        \label{fig:no_https_no_tor}
+      \end{figure}
+
+      When HTTPS is used for communicating with destination, lot of information
+      is hidden. The request does hides formdata and sensitive information like
+      Username and password from the middle eavesdroppers. But they are still
+      able to identify the location of the source because it is exposing the IP
+      address and location of destination website. Even if source is using
+      HTTPS, it is possible to track which website the user is visiting and who
+      is that user.
+
+      \begin{figure}[h!]
+        \includegraphics[width=\linewidth]{yes_tor_no_https.png}
+        \caption{Information one expose when browsing with Tor but without HTTPS}
+        \label{fig:no_https_no_tor}
+      \end{figure}
+
+      When Tor is used to surf without using HTTPS, It hides information like
+      Username and password from the man in the middle, but the exit node
+      exposes them while putting request. Tor does expose location of the User
+      until the request reaches first hope, but it hides information like what
+      site the user wants to visit. It is to be noted that people can identify
+      that you are using Tor. Tor traffic looks similar when transiting in the
+      network.
+
+
+      \begin{figure}[h!]
+        \includegraphics[width=\linewidth]{yes_tor_yes_https.png}
+        \caption{Information one expose when browsing with Tor and HTTPS}
+        \label{fig:no_https_no_tor}
+      \end{figure}
+
+      When Tor is used with HTTPS, it provides great level of security. It
+      hides information like Username and password and other body information
+      when the exit node resolves the request. As I have mentioned, Location
+      details of the User is exposed until the request reaches first relay.
+      Though it hides information like which site the user is trying to browse.
+
+      \begin{figure}[h!]
+        \includegraphics[width=\linewidth]{incognito_mode.png}
+        \caption{Information exposed when browsing through incognito mode}
+        \label{fig:incognito_mode}
+      \end{figure}
+
+      Browsing through incognito doesn't hide anything from people involved at
+      network level, eavesdroppers, NSA or anyone listening your traffic. It
+      exposes your IP information, information like your operating system,
+      browser details, which website you are trying to observe etc.
 
 \end{document}
