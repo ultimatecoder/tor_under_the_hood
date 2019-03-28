@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage{graphicx}
+\usepackage{url}
 \graphicspath{ {./src/images/} }
 \title{Lecture notes of Tor under the hood}
 \author{Jaysinh Shukla}
@@ -7,7 +8,30 @@
 
 \maketitle
 
-\section{Popularity of Tor}
+\section{History}
+
+  The concept of onion routing was developed by the employees of United States
+  Naval Research Laboratory employees David Goldschlag, Mike Reed, and Paul
+  Syverson. 1997 DARPA further developed the onion routing.
+  \cite{history_of_tor} It was the year after when the Internet started getting
+  popularity.  It was expected that each country will have the connectivity of
+  Internet by 1999 and it became true too.  \cite{digitalrevolution}
+
+  During the year 2000, Roger Dingledine started working further on onion
+  routing with Paul Syverson. The project named The Onion Routing (Tor). Since
+  1990, the concept of onion routing was developed with a mindset of
+  transparency and decentralized network. Because of that, Tor released under
+  free and open license.
+
+  In 2006, The Tor project Inc, a Massachusetts based non-profit organization
+  was formed to develop and maintain Tor project further. Electronic Frontier
+  Foundation(EFF) which is well-known for fighting against privacy and mass
+  surveillance found Tor as a potential tool. They started funding Tor then
+  U.S.  International Broadcasting Bureau, the University of Cambridge, Google
+  and U.S. Government. During the early days, U.S. Government was the major
+  source of funding for Tor.
+
+\section{Popularity}
 
   \subsection{Tor Users}
 
@@ -248,5 +272,17 @@
       network level, eavesdroppers, NSA or anyone listening your traffic. It
       exposes your IP information, information like your operating system,
       browser details, which website you are trying to observe etc.
+
+\begin{thebibliography}{2}
+
+  \bibitem{digitalrevolution}
+    Wikipedia Digital Revolution
+    \url{https://en.wikipedia.org/wiki/Digital_Revolution#1990s}
+
+  \bibitem{history_of_tor}
+    History of Tor
+    \url{https://www.torproject.org/about/history/}
+
+\end{thebibliography}
 
 \end{document}
