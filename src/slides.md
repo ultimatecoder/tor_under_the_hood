@@ -44,6 +44,78 @@ A branch of U.S. Navy
 
 ---
 
+## 2006, Tor project
+
+![Tor Project](images/tor-project.png)
+
+---
+
+## Users of Tor all around the world (last decase)
+
+![Users of Tor all around the
+world](images/userstats-relay-country-all-last-decade.png)
+
+---
+
+## User of Tor in India (last decade)
+
+![Users of Tor in India](images/userstats-relay-country-india-last-decade.png)
+
+
+---
+
+## Relay and Bridge operators in last decde
+
+![Relay and Bridge operators in last
+decade](images/relays-and-bridges-in-last-decade.png)
+
+---
+
+## Onion addresses in last decase
+
+![Onion addresses in last decase](images/onion-addresses-in-last-decade.png)
+
+---
+
+## Tor Relays
+
+* Entry node (Guard node)
+
+  * Remains for 1-2 months
+
+  * Knows who is requesting
+
+  * Doesn't know who requested
+
+* Middle node
+
+* Exit node
+
+  * The one who actually resolves the request
+
+  * Doesn't know who requested
+
+  * Knows what is requested
+
+
+---
+
+## Diagram of Tor relays
+
+![Tor network](images/tor_circuit.png)
+
+---
+
+## Bridge
+
+* A special type of Tor relays which is not publicly listed
+
+* Helps in connecting to Tor network if it is blocked
+
+* 
+
+---
+
 ## Satyendra Dubey
 
 ![Satyendra Dubey](images/satyendra_dubey.jpg)
