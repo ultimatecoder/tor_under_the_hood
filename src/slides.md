@@ -1,7 +1,7 @@
-# Tor Under the Hood
+# Tor Under the Hood 🕵️
 
 ---
-## Speaker 👨
+## Who am I? 👨
 
   .center[![Speaker Image](images/jaysinh_shukla.jpg)]
 
@@ -15,63 +15,113 @@
 
 * 📧 [jaysinhp@gmail.com](mailto:jaysinhp@gmail.com)
 
+
 ---
-## 1990, United State Naval Research Laboratory
+
+## Satyendra Dubey
+
+.center[![Satyendra Dubey](images/satyendra_dubey.jpg)]
+
+---
+
+## SBI Bank
+
+.center[![State Bank of India](images/sbi_bank.jpg)]
+
+---
+
+## No Tor No HTTPS
+
+![No Tor No HTTPS](images/no_tor_no_https.png)
+
+---
+
+## No Tor Yes HTTPS
+
+![No Tor Yes HTTPS](images/no_tor_yes_https.png)
 
 
-![U.S. Naval Research Laboratory](images/us_naval_research_laboratory.jpg)
+---
 
-A branch of U.S. Navy
+## Yes Tor No HTTPS
 
-* Employees
+![Yes Tor No HTTPS](images/yes_tor_no_https.png)
+
+
+---
+
+## Yes Tor Yes HTTPS
+
+![Yes Tor Yes HTTPS](images/yes_tor_yes_https.png)
+
+
+---
+---
+
+# History 📚
+
+---
+## Year 1990, United State Naval Research Laboratory
+
+
+.center[![U.S. Naval Research Laboratory](images/us_naval_research_laboratory.jpg)]
+
+---
+### Initial Employees
 
   * David Goldschlag
   * Mike Reed
   * Paul Syverson
 
----
-## 1997, The Defense Advanced Research Projects Agency (DARPA)
-
-![DARPA](images/darpa.png)
 
 ---
-## 2000, The Onion Routing (TOR)
+## Year 1997, The Defense Advanced Research Projects Agency (DARPA)
+
+.center[![DARPA](images/darpa.png)]
 
 
-| ![Roger Dingledine](images/roger_dingledine.jpg) | ![Paul Syverson](images/paul_syverson.jpg) |
-| ------------------------------------------------ | ------------------------------------------ |
-| Roger Dingledine                                 | Paul Syverson                              |
+---
+## Year 2000, The Onion Routing (TOR)
+
+| ![Roger Dingledine](images/roger_dingledine.jpg)  | ![Paul Syverson](images/paul_syverson.jpg) |
+| ------------------------------------------------  | ------------------------------------------ |
+| .center[Roger Dingledine]                         | .center[Paul Syverson]                     |
+
+
+---
+## Year 2006, Tor project
+
+.center[![Tor Project](images/tor-project.png)]
+
 
 ---
 
-## 2006, Tor project
-
-![Tor Project](images/tor-project.png)
+# Statistics of last decade 📈
 
 ---
 
-## Users of Tor all around the world (last decase)
+## Tor users - World 🌐
 
 ![Users of Tor all around the
 world](images/userstats-relay-country-all-last-decade.png)
 
 ---
 
-## User of Tor in India (last decade)
+## Tor users - India 🇮🇳
 
 ![Users of Tor in India](images/userstats-relay-country-india-last-decade.png)
 
 
 ---
 
-## Relay and Bridge operators in last decde
+## Relays and Bridges 👥
 
 ![Relay and Bridge operators in last
 decade](images/relays-and-bridges-in-last-decade.png)
 
 ---
 
-## Onion addresses in last decase
+## Onion addresses 🗣️
 
 ![Onion addresses in last decase](images/onion-addresses-in-last-decade.png)
 
@@ -152,34 +202,6 @@ decade](images/relays-and-bridges-in-last-decade.png)
 * Requests is routed only through Tor relays
 
 
----
-
-## No Tor No HTTPS
-
-![No Tor No HTTPS](images/no_tor_no_https.png)
-
----
-
-## No Tor Yes HTTPS
-
-![No Tor Yes HTTPS](images/no_tor_yes_https.png)
-
-
----
-
-## Yes Tor No HTTPS
-
-![Yes Tor No HTTPS](images/yes_tor_no_https.png)
-
-
----
-
-## Yes Tor Yes HTTPS
-
-![Yes Tor Yes HTTPS](images/yes_tor_yes_https.png)
-
-
----
 
 ## Myths of Tor
 
@@ -202,18 +224,11 @@ decade](images/relays-and-bridges-in-last-decade.png)
 
 ## Tor is funded by U.S. Government. I am sure they knows hidden ways to crack Tor
 
+---
+
+## I should not run a relay otherwise police will come at my home
 
 ---
 
-## 
+## Tor is mostly used by Hackers
 
-
----
-
-## Satyendra Dubey
-
-![Satyendra Dubey](images/satyendra_dubey.jpg)
-
-## SBI Bank
-
-![State Bank of India](images/sbi_bank.jpg)
