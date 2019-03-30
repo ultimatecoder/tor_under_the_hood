@@ -81,21 +81,29 @@ decade](images/relays-and-bridges-in-last-decade.png)
 
 * Entry node (Guard node)
 
-  * Remains for 1-2 months
+  * Remains for 2-3 months
 
   * Knows who is requesting
 
-  * Doesn't know who requested
+  * Doesn't know what is requested
 
 * Middle node
+
+  * Forwards request from Entry node to Exit node
+
+  * Forwards response from Exit node to Entry node
+
+  * Doesn't know who is requesting and what is responded
 
 * Exit node
 
   * The one who actually resolves the request
 
-  * Doesn't know who requested
+  * Don't know who requested
 
   * Knows what is requested
+
+* List of relays
 
 
 ---
@@ -108,7 +116,7 @@ decade](images/relays-and-bridges-in-last-decade.png)
 
 ## Bridge
 
-* A special type of Tor relays which is not publicly listed
+* A special type of Tor relays that is not publicly listed
 
 * Helps in connecting to Tor network if it is blocked
 
