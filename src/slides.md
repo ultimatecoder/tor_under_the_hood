@@ -18,9 +18,24 @@
 
 ---
 
+# Story 1
+
+
+---
+
+# Story 2
+
+---
+
 ## Satyendra Dubey
 
 .center[![Satyendra Dubey](images/satyendra_dubey.jpg)]
+
+
+---
+
+# Story 3
+
 
 ---
 
@@ -28,34 +43,34 @@
 
 .center[![State Bank of India](images/sbi_bank.jpg)]
 
+
 ---
 
-## No Tor No HTTPS
+## HTTP ❌ HTTPS ❌
 
 ![No Tor No HTTPS](images/no_tor_no_https.png)
 
 ---
 
-## No Tor Yes HTTPS
+## HTTP ❌ HTTPS ✔️
 
 ![No Tor Yes HTTPS](images/no_tor_yes_https.png)
 
 
 ---
 
-## Yes Tor No HTTPS
+## Tor ✔️ HTTPS ❌
 
 ![Yes Tor No HTTPS](images/yes_tor_no_https.png)
 
 
 ---
 
-## Yes Tor Yes HTTPS
+## Tor ✔️ HTTPS ✔️
 
 ![Yes Tor Yes HTTPS](images/yes_tor_yes_https.png)
 
 
----
 ---
 
 # History 📚
@@ -66,9 +81,7 @@
 
 .center[![U.S. Naval Research Laboratory](images/us_naval_research_laboratory.jpg)]
 
----
-### Initial Employees
-
+* Initial Employees
   * David Goldschlag
   * Mike Reed
   * Paul Syverson
@@ -125,9 +138,13 @@ decade](images/relays-and-bridges-in-last-decade.png)
 
 ![Onion addresses in last decase](images/onion-addresses-in-last-decade.png)
 
+
+---
+# Components of Tor 🔮
+
 ---
 
-## Tor Relays
+## Tor Relays 🌀
 
 * Entry node (Guard node)
 
@@ -153,35 +170,55 @@ decade](images/relays-and-bridges-in-last-decade.png)
 
   * Knows what is requested
 
-* List of relays
+* List of relays are publicly available
 
 
 ---
 
 ## Diagram of Tor relays
 
-![Tor network](images/tor_circuit.png)
+.center[![Tor network](images/tor_circuit.png)]
+
 
 ---
 
-## Bridge
+## Bridge 📡
 
 * A special type of Tor relays that is not publicly listed
 
-* Helps in connecting to Tor network if it is blocked by ISP or any level
+* Helps in connecting to Tor network if Tor is blocked by ISP or any level
 
 * Bridges are geo distributed located
 
 * It is difficult to get addresses of all the bridges
 
+
 ---
 
-## Onion routing
+## Onion routing 🛡️
 
-* Client builds circuit first
+![Onion routing Communication 1](images/communication_1.png)
 
-* Generates three individual shared symmetric keys for all three relays in
-  circuit.
+
+---
+
+## Onion routing 🛡️
+
+![Onion routing Communication 2](images/communication_2.png)
+
+
+---
+
+## Onion routing 🛡️
+
+![Onion routing Communication 3](images/communication_3.png)
+
+
+---
+
+## Onion routing 🛡️
+
+![Onion routing Communication 3](images/communication_4.png)
 
 ---
 
@@ -202,33 +239,41 @@ decade](images/relays-and-bridges-in-last-decade.png)
 * Requests is routed only through Tor relays
 
 
+---
 
-## Myths of Tor
+# Myths of Tor
 
 
 ---
 
-## I am just watching YouTube videos. Should I use Tor?
+# I don't bother if someone is using my data because I am not doing anything illegal
 
 
 ---
 
-## If I use Tor, I am not hackable
-
----
-
-## I don't bother if someone is using my data because I am not doing anything illegal
+# Tor is mostly used by Hackers. I will get hacked If I use Tor
 
 
 ---
 
-## Tor is funded by U.S. Government. I am sure they knows hidden ways to crack Tor
+# I am watching YouTube videos. Still I should use Tor?
+
 
 ---
 
-## I should not run a relay otherwise police will come at my home
+# Running a Tor relay invites a Police investigation
+
 
 ---
 
-## Tor is mostly used by Hackers
+# If I use Tor, I am not hackable
 
+
+---
+
+# Tor is funded by U.S. Government. I am sure they knows hidden ways to crack Tor
+
+
+---
+
+# Tor or not Tor?
