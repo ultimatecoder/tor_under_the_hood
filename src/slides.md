@@ -25,6 +25,7 @@
 
 # Story 2
 
+
 ---
 
 ## Satyendra Dubey
@@ -45,10 +46,23 @@
 
 
 ---
+## I know privacy, I use incognito mode! 😎
+
+.center[![Incognito mode](images/incognito_mode.png)]
+
+
+---
+## I know privacy, I use incognito mode! 😎
+
+.center[![Incognito mode](images/incognito_mode_highlited.png)]
+
+
+---
 
 ## HTTP ❌ HTTPS ❌
 
 ![No Tor No HTTPS](images/no_tor_no_https.png)
+
 
 ---
 
@@ -59,16 +73,17 @@
 
 ---
 
-## Tor ✔️ HTTPS ❌
-
-![Yes Tor No HTTPS](images/yes_tor_no_https.png)
+.center[![Kahaani Navaazudin looking for Vidya](images/kahaani_1.png)]
 
 
 ---
 
-## Tor ✔️ HTTPS ✔️
+.center[![Kahaani Vidya in a crowd of white saari](images/kahaani_2.png)]
 
-![Yes Tor Yes HTTPS](images/yes_tor_yes_https.png)
+
+---
+
+.center[![Kahaani Vidya balaan](images/kahaani_3.png)]
 
 
 ---
@@ -108,8 +123,8 @@
 
 
 ---
-
 # Statistics of last decade 📈
+
 
 ---
 
@@ -118,19 +133,19 @@
 ![Users of Tor all around the
 world](images/userstats-relay-country-all-last-decade.png)
 
----
 
+---
 ## Tor users - India 🇮🇳
 
 ![Users of Tor in India](images/userstats-relay-country-india-last-decade.png)
 
 
 ---
-
 ## Relays and Bridges 👥
 
 ![Relay and Bridge operators in last
 decade](images/relays-and-bridges-in-last-decade.png)
+
 
 ---
 
@@ -141,6 +156,7 @@ decade](images/relays-and-bridges-in-last-decade.png)
 
 ---
 # Components of Tor 🔮
+
 
 ---
 
@@ -188,7 +204,7 @@ decade](images/relays-and-bridges-in-last-decade.png)
 
 * Helps in connecting to Tor network if Tor is blocked by ISP or any level
 
-* Bridges are geo distributed located
+* Bridges are GEO distributed
 
 * It is difficult to get addresses of all the bridges
 
@@ -241,6 +257,20 @@ decade](images/relays-and-bridges-in-last-decade.png)
 
 ---
 
+## Tor ✔️ HTTPS ❌
+
+![Yes Tor No HTTPS](images/yes_tor_no_https.png)
+
+
+---
+
+## Tor ✔️ HTTPS ✔️
+
+![Yes Tor Yes HTTPS](images/yes_tor_yes_https.png)
+
+
+---
+
 # Myths of Tor
 
 
@@ -261,6 +291,11 @@ decade](images/relays-and-bridges-in-last-decade.png)
 
 ---
 
+# Yes you should!
+
+
+---
+
 # Running a Tor relay invites a Police investigation
 
 
@@ -272,7 +307,6 @@ decade](images/relays-and-bridges-in-last-decade.png)
 ---
 
 # Tor is funded by U.S. Government. I am sure they knows hidden ways to crack Tor
-
 
 ---
 
